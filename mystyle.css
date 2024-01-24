@@ -11,28 +11,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: forestgreen;
+    min-height: 95vh;
+    background-color: cadetblue;
 }
 
 .container {
     width: 450px;
-    background: white;
+    background-color: lightsteelblue;
     border-radius: 8px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.18);
 }
 
 .container h2 {
-    font-weight: 600;
-    font-size: 1.31rem;
-    padding: 1rem 1.75rem;
-    border-bottom: 1px solid #d4dbe5;
+    font-weight: 700;
+    font-size: 1.40rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 2px solid cadetblue;
 }
 
 .wrapper {
-    margin: 1.25rem 1.75rem;
+    margin: 1.5rem 2rem;
 }
 
 .wrapper .input-box {
     position: relative;
 }
+
