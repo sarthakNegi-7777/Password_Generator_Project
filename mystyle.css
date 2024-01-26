@@ -144,3 +144,21 @@ body {
     padding-left: 0.70rem;
 }
 
+.wrapper .generate-btn {
+    width: 100%;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #20809d;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.95rem 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 0.95rem 0 1.5rem;
+}
+
+.wrapper .generate-btn:hover {
+    background-color: #196076;
+}
