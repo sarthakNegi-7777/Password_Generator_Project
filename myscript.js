@@ -42,7 +42,7 @@ const generatePassword = () => {
 }
 
 const updatePassIndicator = () => {
-    passIndicator.id = lengthSlider.value <= 8 ? "weak" : lengthSlider.value <= 16 ? "medium" : "strong";
+    passIndicator.id = lengthSlider.value < 1 ? "nothing" : lengthSlider.value <= 7 ? "weak" : lengthSlider.value <= 15 ? "medium" : "strong";
 }
 
 const updateSlider = () => {
@@ -59,7 +59,7 @@ const copyPassword = () => {
     setTimeout(() => {
         copyIcon.innerText = "copy_all";
         copyIcon.style.color = "#707070";
-    }, 1500);
+    }, 1200);
 }
 
 copyIcon.addEventListener("click", copyPassword);

@@ -47,7 +47,8 @@ body {
     border-radius: 4px;
     letter-spacing: 1.5px;
     border: 1px solid dimgray;
-    padding: 0, 3rem, 0, 1rem;
+    padding-left: 10px;
+    /* padding: 0, 2rem, 0, 1rem; */
 }
 
 .input-box span {
@@ -76,22 +77,26 @@ body {
     height: 100%;
     width: 50%;
     border-radius: inherit;
-    transition: width 0.3s ease;
+    transition: width 1s ease;
+}
+
+.pass-indicator#nothing::before {
+    width: 0%;
 }
 
 .pass-indicator#weak::before {
-    width: 20%;
-    background: #e64a4a;
+    width: 10%;
+    background: red;
 }
 
 .pass-indicator#medium::before {
     width: 50%;
-    background: #f1c80b;
+    background: yellow;
 }
 
 .pass-indicator#strong::before {
-    width: 100%;
-    background: #43A047;
+    width: 90%;
+    background: green;
 }
 
 .wrapper .pass-length {
